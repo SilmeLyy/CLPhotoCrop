@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
   高仿微信编辑图片
                        DESC
 
-  s.homepage         = 'https://gitee.com/lyy_dendi/clphoto-crop'
+  s.homepage         = 'https://github.com/SilmeLyy/CLPhotoCrop'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'leiyuyu' => 'leiyuyu@chelun.com' }
-  s.source           = { :git => 'https://gitee.com/lyy_dendi/clphoto-crop.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SilmeLyy/CLPhotoCrop.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'CLPhotoCrop/Classes/*'

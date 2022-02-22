@@ -31,8 +31,6 @@
   }
 ```
 
-## Requirements
-
 ## Installation
 
 CLPhotoCrop is available through [CocoaPods](https://cocoapods.org). To install
