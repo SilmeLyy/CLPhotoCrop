@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CLPhotoCrop'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '高仿微信编辑图片'
 
 # This description is used to generate tags and improve search results.
