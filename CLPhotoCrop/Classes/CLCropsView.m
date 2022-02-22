@@ -688,14 +688,14 @@ static const CGFloat CLCropViewMinimumBoxSize = 42.0f;
         self.overlayView.hidden = true;
         
 //        CGPoint cropMidPoint = (CGPoint){cropBoxFrame.size.width * 0.5f, cropBoxFrame.size.height * 0.5};
-//        CGPoint anchorPoint = (CGPoint){(cropMidPoint.x + self.scrollView.contentOffset.x) / self.scrollView.contentSize.width, (cropMidPoint.y + self.scrollView.contentOffset.y) / self.scrollView.contentSize.height};
+//        CGPoint anchorPoint = (CGPoint){(cropMidPoint.x + self.scrollView.contentOffset.x + self.scrollView.contentInset.left) / self.scrollView.contentSize.width, (cropMidPoint.y + self.scrollView.contentOffset.y + self.scrollView.contentInset.top) / self.scrollView.contentSize.height};
 //        CGPoint oldOrigin = self.imageView.frame.origin;
 //        self.imageView.layer.anchorPoint = anchorPoint;
 //        CGPoint newOrigin = self.imageView.frame.origin;
 //        CGPoint transition;
 //        transition.x = newOrigin.x - oldOrigin.x;
 //        transition.y = newOrigin.y - oldOrigin.y;
-//        self.imageView.center = CGPointMake (self.imageView.center.x - transition.x, self.imageView.center.y - transition.y);
+//        self.imageView.center = CGPointMake (self.imageView.center.x + transition.x, self.imageView.center.y + transition.y);
     }
     
     CGSize scaleSize = (CGSize){ self.cropOriginImageFrame.size.height * scale, self.cropOriginImageFrame.size.width * scale };
@@ -728,7 +728,9 @@ static const CGFloat CLCropViewMinimumBoxSize = 42.0f;
             self.containerView.transform = CGAffineTransformIdentity;
             self.imageView.transform = rotation;
             self.containerView.frame = frame;
+//            self.imageView.layer.anchorPoint = CGPointMake(0.5, 0.5);
             self.imageView.frame = CGRectMake(0, 0, frame.size.width, frame.size.height);
+            self.imageView.center = CGPointMake(frame.size.width * 0.5, frame.size.height * 0.5);
             self.cropOriginImageFrame = frame;
             self.scrollView.zoomScale = zoomScale;
             self.scrollView.contentOffset = offset;
@@ -738,7 +740,6 @@ static const CGFloat CLCropViewMinimumBoxSize = 42.0f;
             self.overlayView.hidden = false;
             self.coverView.alpha = 0;
             self.overlayView.alpha = 0;
-//            self.imageView.layer.anchorPoint = CGPointMake(0.5, 0.5);
             [UIView animateWithDuration:0.45f animations:^{
                 self.coverView.alpha = 1;
                 self.overlayView.alpha = 1;

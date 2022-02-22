@@ -7,7 +7,29 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+- 导入头文件
+
+```objc
+  #import "CLPhotoCrop.h"
+```
+
+- 跳转
+
+```ObjC
+  CLPhotoShopViewController *vc = [[CLPhotoShopViewController alloc] init];
+  vc.orgImage = [UIImage clp_imageNamed:@"bg"];
+  vc.delegate = self;
+  [self presentViewController:vc animated:true completion:nil];
+```
+
+- 代理
+
+```ObjC
+  ///CLPhotoShopViewControllerDelegate
+  - (void)CLPhotoShopViewControllerFinishImage:(UIImage *)image {
+    self.imageView.image = image;
+  }
+```
 
 ## Requirements
 

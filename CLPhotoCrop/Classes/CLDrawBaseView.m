@@ -52,7 +52,7 @@ static const CGFloat MAX_TEXT_SCAL = 4.0f;
     [pinch requireGestureRecognizerToFail:tap];
     [rotation requireGestureRecognizerToFail:tap];
     
-//    [self.textTool.editor.scrollView.panGestureRecognizer requireGestureRecognizerToFail:pan];
+    [[CLPhotoCropManager instance].scrollview.panGestureRecognizer requireGestureRecognizerToFail:pan];
     
     tap.delegate = [CLPhotoCropManager instance];
     pan.delegate = [CLPhotoCropManager instance];

@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface CLPhotoCropManager : NSObject<UIGestureRecognizerDelegate>
 
+@property (nonatomic, weak) UIScrollView *scrollview;
+
 + (instancetype)instance;
 
 @end

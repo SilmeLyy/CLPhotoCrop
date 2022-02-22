@@ -101,6 +101,7 @@ CLCropViewControllerDelegate>
     } else {
         self.automaticallyAdjustsScrollViewInsets = false;
     }
+    [CLPhotoCropManager instance].scrollview = _scrollView;
     [self.view insertSubview:_scrollView atIndex:0];
     
     
