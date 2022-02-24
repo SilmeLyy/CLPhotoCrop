@@ -6,6 +6,7 @@
 //
 
 #import "CLPImage+Category.h"
+#import "CLCropsView.h"
 
 @implementation UIImage(CLImage)
 
@@ -62,14 +63,17 @@
 }
 
 + (UIImage *)clp_imageNamed: (NSString *)name {
-    UIImage *image = [UIImage imageNamed:[@"CLPhotoCrop.bundle" stringByAppendingPathComponent:name]];
+    NSString *path = [[NSBundle bundleForClass:[CLCropsView class]] pathForResource:@"CLPhotoCrop" ofType:@"bundle"];
+    UIImage *image = [UIImage imageNamed:[path stringByAppendingPathComponent:name]];
     return image ? image : [UIImage imageNamed:name];
 }
 
 + (UIImage *)clp_imageEmojiNamed:(NSString *)name {
-    UIImage *image = [UIImage imageNamed:[@"CLPhotoCrop.bundle" stringByAppendingPathComponent:[NSString stringWithFormat:@"Expression/%@", name]]];
+    NSString *path = [[NSBundle bundleForClass:[CLCropsView class]] pathForResource:@"CLPhotoCrop" ofType:@"bundle"];
+    UIImage *image = [UIImage imageNamed:[path stringByAppendingPathComponent:[NSString stringWithFormat:@"Expression/%@", name]]];
     return image ? image : [UIImage imageNamed:name];
 }
+
 
 + (UIImage *)clp_imageColor:(UIColor *)color {
     CGSize size = CGSizeMake(1, 1);
