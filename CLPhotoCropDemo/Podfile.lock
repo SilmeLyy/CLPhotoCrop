@@ -1,0 +1,16 @@
+PODS:
+  - CLPhotoCrop (0.1.2)
+
+DEPENDENCIES:
+  - CLPhotoCrop (from `../`)
+
+EXTERNAL SOURCES:
+  CLPhotoCrop:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLPhotoCrop: 9b1f006bf7cdbc0d6608a914b812c5a54858ff3f
+
+PODFILE CHECKSUM: a5873d79461782216460069babe54afb2ebf604b
+
+COCOAPODS: 1.10.1

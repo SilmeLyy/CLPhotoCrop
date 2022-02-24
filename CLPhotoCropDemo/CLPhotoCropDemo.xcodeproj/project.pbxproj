@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		942796DBF938E9F0D097DF61 /* Pods_CLPhotoCropDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1996B1F6C1C4407015AC69B3 /* Pods_CLPhotoCropDemo.framework */; };
+		B264497E2CD08602A1739738 /* Pods_CLPhotoCropDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B215ABAFC1F65076391BDFD /* Pods_CLPhotoCropDemoTests.framework */; };
 		D34BE10927C3966F00837D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE10827C3966F00837D01 /* AppDelegate.m */; };
 		D34BE10F27C3966F00837D01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE10E27C3966F00837D01 /* ViewController.m */; };
 		D34BE11227C3966F00837D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34BE11027C3966F00837D01 /* Main.storyboard */; };
@@ -16,30 +18,8 @@
 		D34BE12427C3967100837D01 /* CLPhotoCropDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE12327C3967100837D01 /* CLPhotoCropDemoTests.m */; };
 		D34BE12E27C3967100837D01 /* CLPhotoCropDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE12D27C3967100837D01 /* CLPhotoCropDemoUITests.m */; };
 		D34BE13027C3967100837D01 /* CLPhotoCropDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE12F27C3967100837D01 /* CLPhotoCropDemoUITestsLaunchTests.m */; };
-		D34BE17127C396C700837D01 /* CLPhotoCropManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE13E27C396C600837D01 /* CLPhotoCropManager.m */; };
-		D34BE17227C396C700837D01 /* CLBaseToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE13F27C396C600837D01 /* CLBaseToolView.m */; };
-		D34BE17327C396C700837D01 /* CLDrawImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14227C396C600837D01 /* CLDrawImageView.m */; };
-		D34BE17427C396C700837D01 /* CLEmojiBoardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14527C396C600837D01 /* CLEmojiBoardCell.m */; };
-		D34BE17527C396C700837D01 /* CLEmojiBoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14727C396C600837D01 /* CLEmojiBoardView.m */; };
-		D34BE17627C396C700837D01 /* CLMosaicDoobleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14927C396C600837D01 /* CLMosaicDoobleView.m */; };
-		D34BE17727C396C700837D01 /* CLTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14A27C396C600837D01 /* CLTextInputView.m */; };
-		D34BE17827C396C700837D01 /* CLDrawBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14B27C396C600837D01 /* CLDrawBaseView.m */; };
-		D34BE17927C396C700837D01 /* CLPhotoShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14D27C396C600837D01 /* CLPhotoShopViewController.m */; };
-		D34BE17A27C396C700837D01 /* CLCropToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE14F27C396C600837D01 /* CLCropToolView.m */; };
-		D34BE17C27C396C700837D01 /* CLColorToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15327C396C600837D01 /* CLColorToolView.m */; };
-		D34BE17D27C396C700837D01 /* CLDrawTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15627C396C600837D01 /* CLDrawTextView.m */; };
-		D34BE17E27C396C700837D01 /* CLColorDoobleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15827C396C600837D01 /* CLColorDoobleView.m */; };
-		D34BE17F27C396C700837D01 /* CLCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15927C396C600837D01 /* CLCropOverlayView.m */; };
-		D34BE18027C396C700837D01 /* CLBottomToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15B27C396C600837D01 /* CLBottomToolView.m */; };
-		D34BE18127C396C700837D01 /* CLPImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE15C27C396C600837D01 /* CLPImage+Category.m */; };
-		D34BE18227C396C700837D01 /* CLPSImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16227C396C600837D01 /* CLPSImageView.m */; };
-		D34BE18327C396C700837D01 /* CLCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16427C396C600837D01 /* CLCropViewController.m */; };
-		D34BE18427C396C700837D01 /* CLCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16527C396C600837D01 /* CLCropViewControllerTransitioning.m */; };
-		D34BE18527C396C700837D01 /* CLCropCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16727C396C600837D01 /* CLCropCoverView.m */; };
-		D34BE18627C396C700837D01 /* CLCropsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16927C396C600837D01 /* CLCropsView.m */; };
-		D34BE18727C396C700837D01 /* CLMosaicToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16B27C396C600837D01 /* CLMosaicToolView.m */; };
-		D34BE18827C396C700837D01 /* CLColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE16D27C396C600837D01 /* CLColorButton.m */; };
-		D34BE18A27C396C700837D01 /* CLPhotoCrop.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D34BE17027C396C600837D01 /* CLPhotoCrop.bundle */; };
+		D34BE2C227C75AED00837D01 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34BE2C127C75AED00837D01 /* TestViewController.m */; };
+		EB11656332D807A71F84598E /* Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B423621FFB2101B26F7113ED /* Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0194AA2C9EBA7C82C517525E /* Pods-CLPhotoCropDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemo.debug.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemo/Pods-CLPhotoCropDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1996B1F6C1C4407015AC69B3 /* Pods_CLPhotoCropDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLPhotoCropDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38047328A5EDED55C3135A05 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		443B47FF0FEE5C6C02735E39 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		504E2DA42F47DA4741AFEB30 /* Pods-CLPhotoCropDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemo.release.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemo/Pods-CLPhotoCropDemo.release.xcconfig"; sourceTree = "<group>"; };
+		566DB6744A05C52A6F04038E /* Pods-CLPhotoCropDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemoTests/Pods-CLPhotoCropDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B215ABAFC1F65076391BDFD /* Pods_CLPhotoCropDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLPhotoCropDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B423621FFB2101B26F7113ED /* Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34BE10427C3966F00837D01 /* CLPhotoCropDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CLPhotoCropDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34BE10727C3966F00837D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D34BE10827C3966F00837D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -75,54 +63,9 @@
 		D34BE12927C3967100837D01 /* CLPhotoCropDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CLPhotoCropDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D34BE12D27C3967100837D01 /* CLPhotoCropDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPhotoCropDemoUITests.m; sourceTree = "<group>"; };
 		D34BE12F27C3967100837D01 /* CLPhotoCropDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CLPhotoCropDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
-		D34BE13E27C396C600837D01 /* CLPhotoCropManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPhotoCropManager.m; sourceTree = "<group>"; };
-		D34BE13F27C396C600837D01 /* CLBaseToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBaseToolView.m; sourceTree = "<group>"; };
-		D34BE14027C396C600837D01 /* CLPImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLPImage+Category.h"; sourceTree = "<group>"; };
-		D34BE14127C396C600837D01 /* CLBottomToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBottomToolView.h; sourceTree = "<group>"; };
-		D34BE14227C396C600837D01 /* CLDrawImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDrawImageView.m; sourceTree = "<group>"; };
-		D34BE14327C396C600837D01 /* CLColorDoobleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorDoobleView.h; sourceTree = "<group>"; };
-		D34BE14427C396C600837D01 /* CLCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropOverlayView.h; sourceTree = "<group>"; };
-		D34BE14527C396C600837D01 /* CLEmojiBoardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmojiBoardCell.m; sourceTree = "<group>"; };
-		D34BE14627C396C600837D01 /* CLCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropViewController.h; sourceTree = "<group>"; };
-		D34BE14727C396C600837D01 /* CLEmojiBoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLEmojiBoardView.m; sourceTree = "<group>"; };
-		D34BE14827C396C600837D01 /* CLPSImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPSImageView.h; sourceTree = "<group>"; };
-		D34BE14927C396C600837D01 /* CLMosaicDoobleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMosaicDoobleView.m; sourceTree = "<group>"; };
-		D34BE14A27C396C600837D01 /* CLTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLTextInputView.m; sourceTree = "<group>"; };
-		D34BE14B27C396C600837D01 /* CLDrawBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDrawBaseView.m; sourceTree = "<group>"; };
-		D34BE14C27C396C600837D01 /* CLCropsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropsView.h; sourceTree = "<group>"; };
-		D34BE14D27C396C600837D01 /* CLPhotoShopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPhotoShopViewController.m; sourceTree = "<group>"; };
-		D34BE14E27C396C600837D01 /* CLCropCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropCoverView.h; sourceTree = "<group>"; };
-		D34BE14F27C396C600837D01 /* CLCropToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropToolView.m; sourceTree = "<group>"; };
-		D34BE15027C396C600837D01 /* CLCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropViewControllerTransitioning.h; sourceTree = "<group>"; };
-		D34BE15227C396C600837D01 /* CLColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorButton.h; sourceTree = "<group>"; };
-		D34BE15327C396C600837D01 /* CLColorToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorToolView.m; sourceTree = "<group>"; };
-		D34BE15427C396C600837D01 /* CLPhotoCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotoCrop.h; sourceTree = "<group>"; };
-		D34BE15527C396C600837D01 /* CLMosaicToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMosaicToolView.h; sourceTree = "<group>"; };
-		D34BE15627C396C600837D01 /* CLDrawTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLDrawTextView.m; sourceTree = "<group>"; };
-		D34BE15727C396C600837D01 /* CLEmojiBoardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmojiBoardCell.h; sourceTree = "<group>"; };
-		D34BE15827C396C600837D01 /* CLColorDoobleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorDoobleView.m; sourceTree = "<group>"; };
-		D34BE15927C396C600837D01 /* CLCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropOverlayView.m; sourceTree = "<group>"; };
-		D34BE15A27C396C600837D01 /* CLDrawImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDrawImageView.h; sourceTree = "<group>"; };
-		D34BE15B27C396C600837D01 /* CLBottomToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLBottomToolView.m; sourceTree = "<group>"; };
-		D34BE15C27C396C600837D01 /* CLPImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLPImage+Category.m"; sourceTree = "<group>"; };
-		D34BE15D27C396C600837D01 /* CLBaseToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLBaseToolView.h; sourceTree = "<group>"; };
-		D34BE15E27C396C600837D01 /* CLPhotoCropManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotoCropManager.h; sourceTree = "<group>"; };
-		D34BE15F27C396C600837D01 /* CLDrawBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDrawBaseView.h; sourceTree = "<group>"; };
-		D34BE16027C396C600837D01 /* CLTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLTextInputView.h; sourceTree = "<group>"; };
-		D34BE16127C396C600837D01 /* CLMosaicDoobleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLMosaicDoobleView.h; sourceTree = "<group>"; };
-		D34BE16227C396C600837D01 /* CLPSImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPSImageView.m; sourceTree = "<group>"; };
-		D34BE16327C396C600837D01 /* CLEmojiBoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLEmojiBoardView.h; sourceTree = "<group>"; };
-		D34BE16427C396C600837D01 /* CLCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropViewController.m; sourceTree = "<group>"; };
-		D34BE16527C396C600837D01 /* CLCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropViewControllerTransitioning.m; sourceTree = "<group>"; };
-		D34BE16627C396C600837D01 /* CLCropToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCropToolView.h; sourceTree = "<group>"; };
-		D34BE16727C396C600837D01 /* CLCropCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropCoverView.m; sourceTree = "<group>"; };
-		D34BE16827C396C600837D01 /* CLPhotoShopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPhotoShopViewController.h; sourceTree = "<group>"; };
-		D34BE16927C396C600837D01 /* CLCropsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCropsView.m; sourceTree = "<group>"; };
-		D34BE16A27C396C600837D01 /* CLDrawTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLDrawTextView.h; sourceTree = "<group>"; };
-		D34BE16B27C396C600837D01 /* CLMosaicToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLMosaicToolView.m; sourceTree = "<group>"; };
-		D34BE16C27C396C600837D01 /* CLColorToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLColorToolView.h; sourceTree = "<group>"; };
-		D34BE16D27C396C600837D01 /* CLColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLColorButton.m; sourceTree = "<group>"; };
-		D34BE17027C396C600837D01 /* CLPhotoCrop.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CLPhotoCrop.bundle; sourceTree = "<group>"; };
+		D34BE2C027C75AED00837D01 /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D34BE2C127C75AED00837D01 /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		F2654F4AFF4CBA9C6B13B118 /* Pods-CLPhotoCropDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CLPhotoCropDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CLPhotoCropDemoTests/Pods-CLPhotoCropDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				942796DBF938E9F0D097DF61 /* Pods_CLPhotoCropDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B264497E2CD08602A1739738 /* Pods_CLPhotoCropDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,20 +89,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB11656332D807A71F84598E /* Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F4AE550C065E1E1449BCB2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0194AA2C9EBA7C82C517525E /* Pods-CLPhotoCropDemo.debug.xcconfig */,
+				504E2DA42F47DA4741AFEB30 /* Pods-CLPhotoCropDemo.release.xcconfig */,
+				443B47FF0FEE5C6C02735E39 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.debug.xcconfig */,
+				38047328A5EDED55C3135A05 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.release.xcconfig */,
+				566DB6744A05C52A6F04038E /* Pods-CLPhotoCropDemoTests.debug.xcconfig */,
+				F2654F4AFF4CBA9C6B13B118 /* Pods-CLPhotoCropDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		306A8D155C2141CF46ECCB51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1996B1F6C1C4407015AC69B3 /* Pods_CLPhotoCropDemo.framework */,
+				B423621FFB2101B26F7113ED /* Pods_CLPhotoCropDemo_CLPhotoCropDemoUITests.framework */,
+				7B215ABAFC1F65076391BDFD /* Pods_CLPhotoCropDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D34BE0FB27C3966F00837D01 = {
 			isa = PBXGroup;
 			children = (
-				D34BE13C27C396C600837D01 /* CLPhotoCrop */,
 				D34BE10627C3966F00837D01 /* CLPhotoCropDemo */,
 				D34BE12227C3967100837D01 /* CLPhotoCropDemoTests */,
 				D34BE12C27C3967100837D01 /* CLPhotoCropDemoUITests */,
 				D34BE10527C3966F00837D01 /* Products */,
+				0F4AE550C065E1E1449BCB2D /* Pods */,
+				306A8D155C2141CF46ECCB51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -178,6 +148,8 @@
 				D34BE10827C3966F00837D01 /* AppDelegate.m */,
 				D34BE10D27C3966F00837D01 /* ViewController.h */,
 				D34BE10E27C3966F00837D01 /* ViewController.m */,
+				D34BE2C027C75AED00837D01 /* TestViewController.h */,
+				D34BE2C127C75AED00837D01 /* TestViewController.m */,
 				D34BE11027C3966F00837D01 /* Main.storyboard */,
 				D34BE11327C3967100837D01 /* Assets.xcassets */,
 				D34BE11527C3967100837D01 /* LaunchScreen.storyboard */,
@@ -204,78 +176,6 @@
 			path = CLPhotoCropDemoUITests;
 			sourceTree = "<group>";
 		};
-		D34BE13C27C396C600837D01 /* CLPhotoCrop */ = {
-			isa = PBXGroup;
-			children = (
-				D34BE13D27C396C600837D01 /* Classes */,
-				D34BE16E27C396C600837D01 /* Assets */,
-			);
-			name = CLPhotoCrop;
-			path = ../CLPhotoCrop;
-			sourceTree = "<group>";
-		};
-		D34BE13D27C396C600837D01 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D34BE15427C396C600837D01 /* CLPhotoCrop.h */,
-				D34BE16827C396C600837D01 /* CLPhotoShopViewController.h */,
-				D34BE14D27C396C600837D01 /* CLPhotoShopViewController.m */,
-				D34BE14627C396C600837D01 /* CLCropViewController.h */,
-				D34BE16427C396C600837D01 /* CLCropViewController.m */,
-				D34BE15E27C396C600837D01 /* CLPhotoCropManager.h */,
-				D34BE13E27C396C600837D01 /* CLPhotoCropManager.m */,
-				D34BE15D27C396C600837D01 /* CLBaseToolView.h */,
-				D34BE13F27C396C600837D01 /* CLBaseToolView.m */,
-				D34BE15A27C396C600837D01 /* CLDrawImageView.h */,
-				D34BE14227C396C600837D01 /* CLDrawImageView.m */,
-				D34BE14327C396C600837D01 /* CLColorDoobleView.h */,
-				D34BE15827C396C600837D01 /* CLColorDoobleView.m */,
-				D34BE14427C396C600837D01 /* CLCropOverlayView.h */,
-				D34BE15927C396C600837D01 /* CLCropOverlayView.m */,
-				D34BE15727C396C600837D01 /* CLEmojiBoardCell.h */,
-				D34BE14527C396C600837D01 /* CLEmojiBoardCell.m */,
-				D34BE16327C396C600837D01 /* CLEmojiBoardView.h */,
-				D34BE14727C396C600837D01 /* CLEmojiBoardView.m */,
-				D34BE14827C396C600837D01 /* CLPSImageView.h */,
-				D34BE16227C396C600837D01 /* CLPSImageView.m */,
-				D34BE16127C396C600837D01 /* CLMosaicDoobleView.h */,
-				D34BE14927C396C600837D01 /* CLMosaicDoobleView.m */,
-				D34BE16027C396C600837D01 /* CLTextInputView.h */,
-				D34BE14A27C396C600837D01 /* CLTextInputView.m */,
-				D34BE14C27C396C600837D01 /* CLCropsView.h */,
-				D34BE16927C396C600837D01 /* CLCropsView.m */,
-				D34BE14E27C396C600837D01 /* CLCropCoverView.h */,
-				D34BE16727C396C600837D01 /* CLCropCoverView.m */,
-				D34BE15027C396C600837D01 /* CLCropViewControllerTransitioning.h */,
-				D34BE16527C396C600837D01 /* CLCropViewControllerTransitioning.m */,
-				D34BE15227C396C600837D01 /* CLColorButton.h */,
-				D34BE16D27C396C600837D01 /* CLColorButton.m */,
-				D34BE16C27C396C600837D01 /* CLColorToolView.h */,
-				D34BE15327C396C600837D01 /* CLColorToolView.m */,
-				D34BE15527C396C600837D01 /* CLMosaicToolView.h */,
-				D34BE16B27C396C600837D01 /* CLMosaicToolView.m */,
-				D34BE16A27C396C600837D01 /* CLDrawTextView.h */,
-				D34BE15627C396C600837D01 /* CLDrawTextView.m */,
-				D34BE14127C396C600837D01 /* CLBottomToolView.h */,
-				D34BE15B27C396C600837D01 /* CLBottomToolView.m */,
-				D34BE14027C396C600837D01 /* CLPImage+Category.h */,
-				D34BE15C27C396C600837D01 /* CLPImage+Category.m */,
-				D34BE15F27C396C600837D01 /* CLDrawBaseView.h */,
-				D34BE14B27C396C600837D01 /* CLDrawBaseView.m */,
-				D34BE16627C396C600837D01 /* CLCropToolView.h */,
-				D34BE14F27C396C600837D01 /* CLCropToolView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		D34BE16E27C396C600837D01 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				D34BE17027C396C600837D01 /* CLPhotoCrop.bundle */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -283,9 +183,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D34BE13327C3967100837D01 /* Build configuration list for PBXNativeTarget "CLPhotoCropDemo" */;
 			buildPhases = (
+				9592794AEBE3B52F1FC37BD9 /* [CP] Check Pods Manifest.lock */,
 				D34BE10027C3966F00837D01 /* Sources */,
 				D34BE10127C3966F00837D01 /* Frameworks */,
 				D34BE10227C3966F00837D01 /* Resources */,
+				8564EFD8A218E6EE14D28F88 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D34BE13627C3967100837D01 /* Build configuration list for PBXNativeTarget "CLPhotoCropDemoTests" */;
 			buildPhases = (
+				2C6585BA58939815485AF0BF /* [CP] Check Pods Manifest.lock */,
 				D34BE11B27C3967100837D01 /* Sources */,
 				D34BE11C27C3967100837D01 /* Frameworks */,
 				D34BE11D27C3967100837D01 /* Resources */,
@@ -318,9 +221,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D34BE13927C3967100837D01 /* Build configuration list for PBXNativeTarget "CLPhotoCropDemoUITests" */;
 			buildPhases = (
+				57133A6E17D4F3AC3D0D0875 /* [CP] Check Pods Manifest.lock */,
 				D34BE12527C3967100837D01 /* Sources */,
 				D34BE12627C3967100837D01 /* Frameworks */,
 				D34BE12727C3967100837D01 /* Resources */,
+				40D78F6448E6F6434FF8ADF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -382,7 +287,6 @@
 				D34BE11727C3967100837D01 /* LaunchScreen.storyboard in Resources */,
 				D34BE11427C3967100837D01 /* Assets.xcassets in Resources */,
 				D34BE11227C3966F00837D01 /* Main.storyboard in Resources */,
-				D34BE18A27C396C700837D01 /* CLPhotoCrop.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -402,37 +306,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C6585BA58939815485AF0BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLPhotoCropDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40D78F6448E6F6434FF8ADF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57133A6E17D4F3AC3D0D0875 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8564EFD8A218E6EE14D28F88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo/Pods-CLPhotoCropDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo/Pods-CLPhotoCropDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CLPhotoCropDemo/Pods-CLPhotoCropDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9592794AEBE3B52F1FC37BD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CLPhotoCropDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D34BE10027C3966F00837D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D34BE17427C396C700837D01 /* CLEmojiBoardCell.m in Sources */,
-				D34BE18727C396C700837D01 /* CLMosaicToolView.m in Sources */,
 				D34BE10F27C3966F00837D01 /* ViewController.m in Sources */,
-				D34BE17F27C396C700837D01 /* CLCropOverlayView.m in Sources */,
-				D34BE17827C396C700837D01 /* CLDrawBaseView.m in Sources */,
-				D34BE18627C396C700837D01 /* CLCropsView.m in Sources */,
-				D34BE17927C396C700837D01 /* CLPhotoShopViewController.m in Sources */,
-				D34BE18327C396C700837D01 /* CLCropViewController.m in Sources */,
-				D34BE18127C396C700837D01 /* CLPImage+Category.m in Sources */,
 				D34BE10927C3966F00837D01 /* AppDelegate.m in Sources */,
 				D34BE11A27C3967100837D01 /* main.m in Sources */,
-				D34BE17627C396C700837D01 /* CLMosaicDoobleView.m in Sources */,
-				D34BE17A27C396C700837D01 /* CLCropToolView.m in Sources */,
-				D34BE17D27C396C700837D01 /* CLDrawTextView.m in Sources */,
-				D34BE17527C396C700837D01 /* CLEmojiBoardView.m in Sources */,
-				D34BE17227C396C700837D01 /* CLBaseToolView.m in Sources */,
-				D34BE18227C396C700837D01 /* CLPSImageView.m in Sources */,
-				D34BE18827C396C700837D01 /* CLColorButton.m in Sources */,
-				D34BE17E27C396C700837D01 /* CLColorDoobleView.m in Sources */,
-				D34BE18527C396C700837D01 /* CLCropCoverView.m in Sources */,
-				D34BE17C27C396C700837D01 /* CLColorToolView.m in Sources */,
-				D34BE18427C396C700837D01 /* CLCropViewControllerTransitioning.m in Sources */,
-				D34BE17727C396C700837D01 /* CLTextInputView.m in Sources */,
-				D34BE17327C396C700837D01 /* CLDrawImageView.m in Sources */,
-				D34BE18027C396C700837D01 /* CLBottomToolView.m in Sources */,
-				D34BE17127C396C700837D01 /* CLPhotoCropManager.m in Sources */,
+				D34BE2C227C75AED00837D01 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,6 +587,7 @@
 		};
 		D34BE13427C3967100837D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0194AA2C9EBA7C82C517525E /* Pods-CLPhotoCropDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -630,6 +616,7 @@
 		};
 		D34BE13527C3967100837D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504E2DA42F47DA4741AFEB30 /* Pods-CLPhotoCropDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -658,6 +645,7 @@
 		};
 		D34BE13727C3967100837D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566DB6744A05C52A6F04038E /* Pods-CLPhotoCropDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -680,6 +668,7 @@
 		};
 		D34BE13827C3967100837D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2654F4AFF4CBA9C6B13B118 /* Pods-CLPhotoCropDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -702,6 +691,7 @@
 		};
 		D34BE13A27C3967100837D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 443B47FF0FEE5C6C02735E39 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -722,6 +712,7 @@
 		};
 		D34BE13B27C3967100837D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38047328A5EDED55C3135A05 /* Pods-CLPhotoCropDemo-CLPhotoCropDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;

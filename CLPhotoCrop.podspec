@@ -27,10 +27,11 @@ Pod::Spec.new do |s|
   s.author           = { 'leiyuyu' => 'leiyuyu@chelun.com' }
   s.source           = { :git => 'https://github.com/SilmeLyy/CLPhotoCrop.git', :tag => s.version.to_s }
 
+
   s.ios.deployment_target = '9.0'
-  s.source_files = 'CLPhotoCrop/Classes/*'
+  
+  s.source_files = 'CLPhotoCrop/Classes/*.{h,m}'
   s.resources = 'CLPhotoCrop/Assets/*.bundle'
-  s.public_header_files = 'CLPhotoCrop/Classes/CLPhotoCrop.h'
 
   s.frameworks = 'UIKit'
 end

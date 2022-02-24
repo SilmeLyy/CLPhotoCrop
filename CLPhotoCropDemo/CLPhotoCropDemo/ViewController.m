@@ -5,6 +5,7 @@
 //  Created by 雷玉宇 on 2022/2/21.
 //
 
+#import "TestViewController.h"
 #import "ViewController.h"
 #import "CLPhotoCrop.h"
 
@@ -32,6 +33,11 @@
     [btn setTitleColor:CLP_HEXCOLOR(0x2a5caa) forState:UIControlStateNormal];
     [btn addTarget:self action:@selector(pushPhotoCrop) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:btn];
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.frame = CGRectMake(100, 0, 50, 20);
+    label.backgroundColor = [UIColor redColor];
+    [self.view addSubview:label];
 }
 
 - (void)pushPhotoCrop {

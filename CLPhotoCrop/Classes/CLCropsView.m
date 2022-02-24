@@ -812,47 +812,32 @@ static const CGFloat CLCropViewMinimumBoxSize = 42.0f;
     return self.containerView;
 }
 
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView            {
-//    [self matchForegroundToBackground];
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView {
+    
 }
 
-- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
-{
-//    [self startEditing];
-//    self.canBeReset = YES;
+- (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView {
+    
 }
 
-- (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(UIView *)view
-{
-//    [self startEditing];
-//    self.canBeReset = YES;
+- (void)scrollViewWillBeginZooming:(UIScrollView *)scrollView withView:(UIView *)view {
+    
 }
 
-- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView
-{
-//    [self startResetTimer];
-//    [self checkForCanReset];
+- (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
+    
 }
 
 - (void)scrollViewDidEndZooming:(UIScrollView *)scrollView withView:(UIView *)view atScale:(CGFloat)scale {
-//    [self startResetTimer];
-//    [self checkForCanReset];
+    
 }
 
-- (void)scrollViewDidZoom:(UIScrollView *)scrollView
-{
-//    if (scrollView.isTracking) {
-//        self.cropBoxLastEditedZoomScale = scrollView.zoomScale;
-//        self.cropBoxLastEditedMinZoomScale = scrollView.minimumZoomScale;
-//    }
-//
-//    [self matchForegroundToBackground];
+- (void)scrollViewDidZoom:(UIScrollView *)scrollView {
+    
 }
 
-- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate
-{
-//    if (!decelerate)
-//        [self startResetTimer];
+- (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
+    
 }
 
 - (CGRect)contentBounds

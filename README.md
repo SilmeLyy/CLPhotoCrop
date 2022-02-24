@@ -15,7 +15,7 @@
 
 - 跳转
 
-```ObjC
+```objc
   CLPhotoShopViewController *vc = [[CLPhotoShopViewController alloc] init];
   vc.orgImage = [UIImage clp_imageNamed:@"bg"];
   vc.delegate = self;
@@ -24,7 +24,7 @@
 
 - 代理
 
-```ObjC
+```objc
   ///CLPhotoShopViewControllerDelegate
   - (void)CLPhotoShopViewControllerFinishImage:(UIImage *)image {
     self.imageView.image = image;

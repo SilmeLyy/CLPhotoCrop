@@ -8,7 +8,6 @@
 #ifndef CLPhotoCrop_h
 #define CLPhotoCrop_h
 
-#import "CLPhotoCropManager.h"
 #import "CLPImage+Category.h"
 #import "CLPhotoCropManager.h"
 #import "CLPhotoShopViewController.h"
