@@ -42,7 +42,7 @@ pod 'CLPhotoCrop'
 
 ## Author
 
-leiyuyu, leiyuyu@chelun.com
+leiyuyu, leiyuyu1993@163.com
 
 ## License
 
